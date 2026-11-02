@@ -4,7 +4,7 @@ A hands-on tutorial for building quantum geometry oracles with **PsiQuantum Cons
 
 How can a short circuit describe a material with exponentially many microscopic features? Instead of listing every pore, we generate its geometry from a keyed permutation and a local rule. The circuit answers one question: **is this grid site inside a hole?**
 
-![Pseudorandom hole centres and the resulting porous material on a 64 × 64 grid.](assets/porous-material.png)
+![Pseudorandom hole centres and the resulting porous material on a 64 × 64 grid.](porous-material.png)
 
 ## The construction
 
@@ -29,8 +29,7 @@ The tutorial covers classical reference geometries, reusable circuit routines ca
 
 Integer weights turn the same accumulator into a local convolution. Positive and negative contributions produce richer textures. The notebook includes a classical example and a guided signed-circuit exercise.
 
-![A weighted kernel, its signed local score, and the resulting thresholded geometry.](assets/weighted-texture.png)
+![A weighted kernel, its signed local score, and the resulting thresholded geometry.](weighted-texture.png)
 
-Both illustrations use the notebook's classical reference functions. Full circuit scans and resource estimates are generated when the corresponding notebook cells run.
 
 Based on [*How to make quantum cheese*](https://arxiv.org/abs/2606.00222) by Alice Barthe. See also the [Construct documentation](https://docs.construct.psiquantum.com/).
